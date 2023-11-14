@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sarvesh Automobile</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@300;400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="assets/images-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-window-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+
+        <div class="text-box">
+            <h1>Sarvesh Automobile</h1>
+            <p>Making a website for Automobile with the help of html,css,javascript.</p>
+            <a href="./about.html" class="hero-btn">Visit Us To Know More</a>
+            
+        </div>
+
+    </section>
+
+    <!-- --------- Services --------------- -->
+    
+    <section class="service">
+        <h1>Services we offer</h1>
+        <p>We mostly repairs hero and honda's bikes.</p>
+
+        <div class="row">
+            <div class="service-col">
+                <h3>Bike Servicing</h3>
+                <p>In Servicing we offer whole bike check-up and cleaning filter. we also check you break shoe and clean it. The charges are 250rs for servicing</p>
+            </div>
+            <div class="service-col">
+                <h3>Engine Work</h3>
+                <p>In Servicing we offer whole bike check-up and cleaning filter. we also check you break shoe and clean it. The charges are 250rs for servicing</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------- Our Service Center -------------- -->
+
+    <section class="center">
+        <h1>Our Center</h1>
+        <p>This is our only one center</p>
+
+        <div class="row">
+            <div class="center-col">
+                <img src="./assets/IMG-20220414-WA0002.jpg" alt="img of sarvesh Automobile">
+                <div class="layer">
+                    <h3>Shikrapur</h3>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+
+    <!-- ---------- Client review --------- -->
+
+    <section class="review">
+        <h1>What Our Client Says</h1>
+        <p></p>
+
+        <div class="row">
+            <div class="review-col">
+                <img src="./assets/Batman Wallpaper - Wallpaper Sun.jpeg">
+                <div>
+                    <p></p>
+                    <h3>Sumit Gawari</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+
+                </div>
+            </div>
+            <div class="review-col">
+                <img src="./assets/berserk.jpeg">
+                <div>
+                    <p></p>
+                    <h3>Pranav Dhamdhere</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ------- Call to action ------- -->
+
+    <section class="ctq">
+        <h1>Call for any queries</h1>
+        <a href="./contact.html" class="hero-btn">Contact Us</a>
+    </section>
+
+    <!-- ------- Footer ----------- -->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p></p>
+        <div class="icons">
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+        </div>
+        <p></p>
+    </section>
+
+
+    <!-- ----------- JavaScript for Toggle Menu ----------- -->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+    </script>
+
+</body>
+</html>
